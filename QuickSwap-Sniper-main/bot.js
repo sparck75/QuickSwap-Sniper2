@@ -20,14 +20,14 @@ const {
 const Spend = '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270' // Token to use as base, e.g WMATIC 
 const Receive = '0x2791bca1f2de4661ed88a30c99a7a9449aa84174' // Token to Buy
 
-const recipientAddress = '' // Wallet Address
+const recipientAddress = '0xe4d606813289b0BCDf788Cafb600A5Ec020046ee' // Wallet Address
 
 const amountToSpend = 2; //Amount of base to spend
 var take_profit = 10; //In Percentage
 var stop_loss = 10; //In Percentage
 
 //2. Wallet
-const Seed = '' // Add wallet seed phrase here
+const Seed = 'harvest water decide number matrix food depend cream mouse border obtain patrol' // Add wallet seed phrase here
 
 //3. Optional settings
 const Slippage = ethers.utils.parseUnits('0', 'ether')
